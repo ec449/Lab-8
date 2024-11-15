@@ -79,13 +79,13 @@ if (score>=90){
    
     console.log("Grade A");
 }
-else if(number>=80){
+else if(score>=80 && score<= 89){
     
     console.log("Grade B");
 
 } 
 
 else{
-   console.log ("Grade C")
+   console.log ("Grade C");
 
 }
